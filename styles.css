@@ -1,0 +1,57 @@
+:root{
+  --bg1: #222222;
+  --bg2: #444444;
+  --bg3: #d6d6d6;
+  --bg4: #838383;
+}
+
+body {
+
+  text-align: center;
+  font-family: Verdana;
+  font-size: 2em;
+  color: white;
+  background-image: linear-gradient(135deg, #222222, #444444);
+  
+}
+
+#main_div {
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 5px 5px 5px black;
+}
+
+#lab {
+
+    font-size: 0.5em;
+
+}
+
+#user_input input {
+
+    margin-top: 1em;
+    padding: 1em;
+    padding-left: 0.2em;
+    font-size: 1em;
+    text-align: center;
+    box-shadow: 5px 5px 15px black;
+
+}
+
+footer {
+
+    text-align: center;
+    font-size: 1rem;
+    color: black;
+    font-weight: bold;
+    position: fixed;
+    bottom: 0px;
+    left: 0%;
+    width: 100%;
+    box-shadow: 2px 2px 15px black;
+    background-image: linear-gradient(135deg, #d6d6d6, #838383);
+  
+}

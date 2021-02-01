@@ -4,12 +4,23 @@
         <title>Number Simulator</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <label>Insert a number.</label>
-        <input type="number"></input>
+        <div id="main_div">
+            <div id="user_input">
+                <label>Insert a number.</label><br>
+                <label id="lab">The number you insert here will be concatenated with the one below
+                     the input box.</label><br>
+                <input type="number" min="0" max="9"></input>
+            </div>
+            <br>
+            <label id="concat_num">0</label>
+        </div>
     </body>
     <footer>
-        <label>web_training, by João Eduardo K. S. Fornazari.</label>
+        <div>
+            <p>web_training, by João Eduardo K. S. Fornazari.</p>
+        </div>
     </footer>
 </html>
