@@ -1,10 +1,9 @@
-# '''web_training'''
+<p style="font-family: Courier New; font-size: 16px; font-weight:bold"></p>
 Training HTML, CSS and JS.
 
 ## What is this project?
 
-An Instagram profile recommended some ideas to train developing in any language. One of them was
-_insert numbers and concatenate them as you insert it_.
+An Instagram profile recommended some ideas to train developing in any language. One of them was to _insert numbers and concatenate them as you insert it_.
 
 I'm trying to do exactly that, with HTML + CSS + JS.
 
