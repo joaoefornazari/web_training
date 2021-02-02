@@ -5,17 +5,17 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles.css">
+        <script src="scripts.js"></script>
     </head>
     <body>
         <div id="main_div">
             <div id="user_input">
                 <label>Insert a number.</label><br>
-                <label id="lab">The number you insert here will be concatenated with the one below
-                     the input box.</label><br>
-                <input type="number" min="0" max="9"></input>
+                <p id="lab">If you press Enter, it will appear below the input box.</p>
+                <input id="num" type="number" min="0" max="9"></input>
             </div>
             <br>
-            <label id="concat_num">0</label>
+            <p id="concat_num"></p>
         </div>
     </body>
     <footer>
