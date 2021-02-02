@@ -1,4 +1,8 @@
-<p style="font-family: Courier New; font-size: 16px; font-weight:bold"></p>
+<foreignObject size="100%">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<h1 style="font-family: Courier New; font-size: 16px;">web_training</h1>
+</div>
+</foreignObject>
 Training HTML, CSS and JS.
 
 ## What is this project?
