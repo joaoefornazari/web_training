@@ -1,4 +1,4 @@
-# web_training
+# '''web_training'''
 Training HTML, CSS and JS.
 
 ## What is this project?
