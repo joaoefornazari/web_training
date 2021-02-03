@@ -1,11 +1,9 @@
-document.getElementById("num").addEventListener("keyup", function(event){
+function numberWrite(value, event)
+{
+    if(event.key === 'Enter'){
 
-    alert("Func");
+        event.preventDefault();
+        document.getElementById("concat_num").innerHTML += value;
 
-    if(event.keyCode == 13){
-
-        document.getElementById("concat_num").innerHTML = document.getElementById("num").innerHTML;
-        alert("Enter");
     }
-
-});
+}

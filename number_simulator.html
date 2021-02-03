@@ -12,7 +12,8 @@
             <div id="user_input">
                 <label>Insert a number.</label><br>
                 <p id="lab">If you press Enter, it will appear below the input box.</p>
-                <input id="num" type="number" min="0" max="9"></input>
+                <input id="num" type="number" min="0" max="9" onkeyup="numberWrite(this.value, event)">
+                </input>
             </div>
             <br>
             <p id="concat_num"></p>
