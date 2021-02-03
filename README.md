@@ -1,21 +1,31 @@
-<foreignObject size="100%">
-<div xmlns="http://www.w3.org/1999/xhtml">
-<h1 style="font-family: Courier New; font-size: 16px;">web_training</h1>
-</div>
-</foreignObject>
+# Web_Training
 Training HTML, CSS and JS.
 
 ## What is this project?
 
-An Instagram profile recommended some ideas to train developing in any language. One of them was to _insert numbers and concatenate them as you insert it_.
+An Instagram profile recommended some ideas to train developing in any language. One of them was to _insert numbers and concatenate them as you insert it_. So, I've got my hands on that simple idea to train my front-end skills.
 
-I'm trying to do exactly that, with HTML + CSS + JS.
+## What it does?
 
-## Project _status quo_
+When you get on the website, this screen wil show up.
 
-HTML and CSS are nicely working. JavaScript isn't doing anything (yet). As the _input_ has no button, I want it to show the number
-below it _when I hit Enter_ on my keyboard. Tried this: https://stackoverflow.com/questions/905222/prevent-form-submission-on-enter-key-press. Didn't work.
+![First screen.](https://github.com/joaoefornazari/web_training/blob/main/website1.png?raw=true)
 
-![Current visual of the project](https://github.com/joaoefornazari/web_training/blob/main/website1.png?raw=true)
+Choose a number from 1 to 9. _(Note: the input field still allows you to insert numbers with more than two digits. Gotta fix that later)_
+
+![Picking a number.](https://github.com/joaoefornazari/web_training/blob/main/website2.png?raw=true)
+
+When you hit Enter, the number you picked will be below the input field.
+
+![Number picked.](https://github.com/joaoefornazari/web_training/blob/main/website3.png?raw=true)
+
+And, if you pick another number and press Enter again, the current number will be concatenated with the previous one!
+
+![Number concatenated.](https://github.com/joaoefornazari/web_training/blob/main/website4.png?raw=true)
+
+## Future possible additions:
+
+- Node.js + SQL: store each number on a databank and having the option of search numbers.
+- Maybe transform this on a telephone number list?
 
 ### See ya!
